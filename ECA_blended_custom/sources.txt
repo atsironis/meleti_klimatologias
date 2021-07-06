@@ -1,0 +1,70 @@
+EUROPEAN CLIMATE ASSESSMENT & DATASET (ECA&D), file created on 20-06-2021
+THESE DATA CAN BE USED FREELY PROVIDED THAT THE FOLLOWING SOURCE IS ACKNOWLEDGED:
+
+Klein Tank, A.M.G. and Coauthors, 2002. Daily dataset of 20th-century surface
+air temperature and precipitation series for the European Climate Assessment.
+Int. J. of Climatol., 22, 1441-1453.
+Data and metadata available at http://www.ecad.eu
+
+FILE FORMAT (MISSING VALUE CODE IS -9999):
+
+ 01- 05 STAID  : Station identifier
+ 07- 12 SOUID  : Source identifier
+ 14- 53 SOUNAME: Source name
+ 55- 56 CN     : Country code (ISO3116 country codes)
+ 58- 66 LAT    : Latitude in degrees:minutes:seconds (+: North, -: South)
+ 68- 77 LON    : Longitude in degrees:minutes:seconds (+: East, -: West)
+ 79- 82 HGTH   : Station elevation in meters
+ 84- 87 ELEI   : Element identifier (see website at Daily Data > Data dictionary > Elements)
+ 89- 96 BEGIN  : Begin date YYYYMMDD
+ 98-105 END    : End date YYYYMMDD
+107-111 PARID  : Participant identifier
+113-163 PARNAME: Participant name
+
+STAID, SOUID,SOUNAME                                 ,CN,      LAT,       LON,HGHT,ELEI,   BEGIN,     END,PARID,PARNAME
+
+  269,115594,VILSANDI                                ,EE,+58:22:59,+021:48:55,   6, HU6,19590701,20210430,   39,Kaupo Mandla                                      
+  269,926214,VILSANDI                                ,EE,+58:23:00,+021:49:00,   6, HU6,20000815,20200229,     ,                    
+  268,115600,VORU                                    ,EE,+57:50:46,+027:01:10,  82, HU6,19660101,20210430,   39,Kaupo Mandla                                      
+  268,926249,VORU                                    ,EE,+57:51:00,+027:01:00,  83, HU6,20100909,20200229,     ,                    
+11349,175098,HELTERMAA                               ,EE,+58:51:51,+023:02:37,   4, HU6,19591021,20210430,   39,Kaupo Mandla                                      
+11350,175105,JOHVI                                   ,EE,+59:19:44,+027:23:54,  73, HU6,19580601,20210430,   39,Kaupo Mandla                                      
+11350,926046,JOHVI                                   ,EE,+59:20:00,+027:23:00,  75, HU6,20150501,20200229,     ,                    
+11351,175112,JOGEVA                                  ,EE,+58:44:59,+026:24:54,  70, HU6,19641101,20210430,   39,Kaupo Mandla                                      
+11351,926144,JOGEVA                                  ,EE,+58:45:00,+026:25:00,  71, HU6,20150501,20200229,     ,                    
+11353,175126,KURESSAARE                              ,EE,+58:13:05,+022:30:23,   1, HU6,19590701,20210430,   39,Kaupo Mandla                                      
+11354,175133,KUNDA                                   ,EE,+59:31:17,+026:32:29,   3, HU6,19590701,20210430,   39,Kaupo Mandla                                      
+11354,926045,KUNDA                                   ,EE,+59:31:00,+026:33:00,   3, HU6,20071213,20200229,     ,                    
+11355,175140,KIHNU                                   ,EE,+58:05:55,+023:58:13,   3, HU6,19590701,20210430,   39,Kaupo Mandla                                      
+11355,926226,KIHNU                                   ,EE,+58:06:00,+023:58:00,   4, HU6,19980328,20200229,     ,                    
+11356,175147,KUUSIKU                                 ,EE,+58:58:24,+024:44:02,  53, HU6,19450101,20210430,   39,Kaupo Mandla                                      
+11356,926134,KUUSIKU                                 ,EE,+58:58:00,+024:44:00,  52, HU6,20150501,20200229,     ,                    
+11357,175154,NARVA                                   ,EE,+59:23:21,+028:06:46,  28, HU6,19590701,20210430,   39,Kaupo Mandla                                      
+11357,926058,NARVA                                   ,EE,+59:22:00,+028:07:00,  30, HU6,20100602,20200229,     ,                    
+11358,175161,LAANE-NIGULA                            ,EE,+58:57:04,+023:48:56,  24, HU6,19640101,20210430,   39,Kaupo Mandla                                      
+11358,926124,NIGULA                                  ,EE,+58:57:00,+023:49:00,  25, HU6,20150501,20200229,     ,                    
+11359,175168,PARNU                                   ,EE,+58:23:04,+024:29:07,  12, HU6,19660101,20210430,   39,Kaupo Mandla                                      
+11359,926231,PJARNU                                  ,EE,+58:22:00,+024:30:00,   8, HU6,20150501,20200229,     ,                    
+11360,175175,PAKRI                                   ,EE,+59:23:22,+024:02:24,  23, HU6,19590701,20210430,   39,Kaupo Mandla                                      
+11360,926029,PAKRI                                   ,EE,+59:21:00,+024:03:00,  26, HU6,20150501,20200229,     ,                    
+11361,175182,RUHNU                                   ,EE,+57:47:00,+023:15:32,   2, HU6,19590701,20210430,   39,Kaupo Mandla                                      
+11362,175189,RISTNA                                  ,EE,+58:55:15,+022:03:59,   7, HU6,19590701,20210430,   39,Kaupo Mandla                                      
+11362,926115,RISTNA                                  ,EE,+58:55:00,+022:04:00,   9, HU6,19941115,20200229,     ,                    
+11363,175196,TALLINN                                 ,EE,+59:23:53,+024:36:10,  33, HU6,19590701,20210430,   39,Kaupo Mandla                                      
+11363,926038,TALLINN                                 ,EE,+59:23:00,+024:35:00,  34, HU6,20150501,20200229,     ,                    
+11364,175203,SORVE                                   ,EE,+57:54:49,+022:03:28,   3, HU6,19590703,20210430,   39,Kaupo Mandla                                      
+11364,926218,SORVE                                   ,EE,+57:55:00,+022:03:00,   4, HU6,20150501,20200229,     ,                    
+11365,175210,TIIRIKOJA                               ,EE,+58:51:55,+026:57:08,  32, HU6,19450101,20210430,   39,Kaupo Mandla                                      
+11365,926145,TILRIKOJA                               ,EE,+58:52:00,+026:57:00,  34, HU6,20150501,20200229,     ,                    
+11367,175224,TARTU-TORAVERE                          ,EE,+58:15:50,+026:27:41,  70, HU6,19640901,20210430,   39,Kaupo Mandla                                      
+11368,175231,TOOMA                                   ,EE,+58:52:28,+026:16:20,  89, HU6,19450601,20210430,   39,Kaupo Mandla                                      
+11369,175238,VAIKE-MAARJA                            ,EE,+59:08:29,+026:13:51, 121, HU6,19660101,20210430,   39,Kaupo Mandla                                      
+11369,926141,VALKE-MAARJA                            ,EE,+59:08:00,+026:14:00, 123, HU6,20150501,20200229,     ,                    
+11370,175245,TURI                                    ,EE,+58:48:31,+025:24:33,  60, HU6,19450101,20210430,   39,Kaupo Mandla                                      
+11370,926135,TURI                                    ,EE,+58:49:00,+025:25:00,  65, HU6,20150501,20200229,     ,                    
+11371,175252,VILJANDI                                ,EE,+58:22:40,+025:36:01,  86, HU6,19450101,20210430,   39,Kaupo Mandla                                      
+11371,926233,VILJANDI                                ,EE,+58:22:00,+025:36:00,  86, HU6,20150501,20200229,     ,                    
+11372,175259,VALGA                                   ,EE,+57:47:24,+026:02:16,  65, HU6,19590701,20210430,   39,Kaupo Mandla                                      
+11372,926247,VALGA                                   ,EE,+57:47:00,+026:02:00,  66, HU6,20150501,20200229,     ,                    
+11373,175266,VIRTSU                                  ,EE,+58:34:22,+023:30:49,   2, HU6,19590701,20210430,   39,Kaupo Mandla                                      
+11373,926128,VIRTSU                                  ,EE,+58:34:00,+023:31:00,   3, HU6,20150501,20200229,     ,                    
