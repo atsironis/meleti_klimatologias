@@ -50,7 +50,7 @@ image.plot(look)
 addland()
 grid()
 
-dim(pro)
-summary(pro)
+dim(pro79)
+summary(pro79)
 
 predict.se(out)
